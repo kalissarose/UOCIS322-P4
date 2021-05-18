@@ -121,6 +121,8 @@
             // View flask_brevets.py for details.
             function calc_times(control) {
               var km = control.find("input[name='km']").val();
+              var brevet_dist = $("#brevet_dist_km").val();
+              var start_time = $("#begin_date").val(); 
               var open_time_field = control.find("input[name='open']");
               var close_time_field = control.find("input[name='close']");
 
